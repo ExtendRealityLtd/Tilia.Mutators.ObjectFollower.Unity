@@ -1,7 +1,7 @@
 [![Tilia logo][Tilia-Image]](#)
 
-> ### Tilia {scope} {feature} {platform?}
-> {Description of feature}.
+> ### Mutators -> Object Follower for the Unity Software
+> A mechanism to make a target GameObject follow a source GameObject in the scene for the Unity software.
 
 [![Release][Version-Release]][Releases]
 [![License][License-Badge]][License]
@@ -9,9 +9,11 @@
 
 ## Introduction
 
-{Introduction into the purpose of the feature.}
+The Object Follower prefab provides the ability to have one target GameObject follow a source GameObject with 1:1 mapping around a [Unity] scene.
 
-> **Requires** {platform and minimum version number}.
+This replicates the concept of having a child/parent GameObject but without the need for nesting and therefore the target is not affected by any transform changes such as position, rotation or scale changes.
+
+> **Requires** the Unity software version `2018.3.10f1` (or above).
 
 ## Getting Started
 
@@ -35,9 +37,9 @@ Please refer to the Extend Reality [Code of Conduct].
 
 Code released under the [MIT License][License].
 
-[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.svg
-[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.svg
-[project coding conventions]: https://github.com/ExtendRealityLtd/.github/blob/master/CONVENTIONS/{project_type}
+[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity.svg
+[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity.svg
+[project coding conventions]: https://github.com/ExtendRealityLtd/.github/blob/master/CONVENTIONS/UNITY3D.md
 
 [Tilia-Image]: https://user-images.githubusercontent.com/1029673/67681496-5bf10700-f985-11e9-9413-e61801b6eab5.png
 [License]: LICENSE.md
@@ -49,3 +51,5 @@ Code released under the [MIT License][License].
 [Releases]: ../../releases
 [Contributing guidelines]: https://github.com/ExtendRealityLtd/.github/blob/master/CONTRIBUTING.md
 [Code of Conduct]: https://github.com/ExtendRealityLtd/.github/blob/master/CODE_OF_CONDUCT.md
+
+[Unity]: https://unity3d.com/

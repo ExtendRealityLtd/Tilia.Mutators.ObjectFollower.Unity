@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.0.1...v1.0.2) (2019-11-26)
+
+#### Bug Fixes
+
+* **HowToGuides:** add missing user guide ([eb96219](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/commit/eb96219dabd5eba0040d3844723f4d2179df9f16))
+  > Added a new user guide to demonstrate how to use the object follower.
+
 ### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.0.0...v1.0.1) (2019-11-22)
 
 #### Bug Fixes

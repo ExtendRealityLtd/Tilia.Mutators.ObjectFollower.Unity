@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.9](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.0.8...v1.0.9) (2020-04-14)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 1.14.1 to 1.15.0 ([16ee3b5](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/commit/16ee3b54f4d955a13db468a3a166eba94a800663))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 1.14.1 to 1.15.0. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v1.14.1...v1.15.0)
+  > 
+  > Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
 ### [1.0.8](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.0.7...v1.0.8) (2020-04-03)
 
 #### Miscellaneous Chores

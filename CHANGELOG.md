@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.0.13...v1.1.0) (2020-06-03)
+
+#### Features
+
+* **prefab:** add rigidbody follower ([58e6385](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/commit/58e638543a72780cbd93aae6504c91dc2f3ae97a))
+  > The Rigidbody Follower uses the velocities of the rigidbody source to move the object around instead of simply updating the transform position data.
+
 ### [1.0.13](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.0.12...v1.0.13) (2020-05-31)
 
 #### Miscellaneous Chores

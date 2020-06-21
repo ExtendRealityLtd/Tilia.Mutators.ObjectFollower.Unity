@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.1.1...v1.1.2) (2020-06-21)
+
+#### Bug Fixes
+
+* **Documentation:** apply style guidelines ([e6eda70](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/commit/e6eda70fcf35354cf899177f4ed8d6a1d2f0369d))
+  > The guide has had the style guidelines applied to it to make it more consistent.
+
 ### [1.1.1](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.1.0...v1.1.1) (2020-06-07)
 
 #### Miscellaneous Chores

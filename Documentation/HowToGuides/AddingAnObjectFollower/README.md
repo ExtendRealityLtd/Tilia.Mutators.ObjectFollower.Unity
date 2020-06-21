@@ -8,7 +8,12 @@
 
 ## Introduction
 
-The purpose of the Object Follower prefab is the to have one or more GameObjects follow another GameObject around the [Unity] scene without the need to nest the GameObjects underneath each other.
+The purpose of the Object Follower prefabs is the to have one or more GameObjects follow another GameObject around the [Unity] scene without the need to nest the GameObjects underneath each other.
+
+There are two types of follow:
+
+* `Mutators.ObjectFollower` - Updates the `Transform` data of the target to match the `Transform` data of the source.
+* `Mutators.RigidbodyFollower` - Updates the target by applying velocities to the target `Rigidbody` until the target `Transform` data matches the source `Transform` data.
 
 ## Prerequisites
 
@@ -21,6 +26,7 @@ The purpose of the Object Follower prefab is the to have one or more GameObjects
 Create a new `Cube` Unity 3D Object by selecting `Main Menu -> GameObject -> 3D Object -> Cube` and change the `Transform` properties to:
 
 * Position: `X = 0`, `Y = 0`, `Z = 0`
+* Scale: `X = 0.8`, `Y = 0.8`, `Z = 0.8`
 
 This will be used as the source GameObject to follow around the Unity scene.
 
@@ -48,7 +54,7 @@ Select the `Mutators.ObjectFollower` GameObject in the Unity Hierarchy window th
 
 > The size property will be `0` by default so change it to `1`.
 
-Drag and drop the `Cube` GameObject from the Unity Hierarchy window into the newly displayed Element `0` field within the `Sources -> Elements` parameter on the `Object Follower` component.
+Drag and drop the `Cube` GameObject into the newly displayed `Element 0` property value within the `Sources` property on the `Object Follower` component.
 
 ![Add Cube To Object Follower Source](assets/images/AddCubeToObjectFollowerSource.png)
 
@@ -58,7 +64,7 @@ Increase the `Targets -> Elements -> Size` property by `1` on the `Object Follow
 
 > The size property will be `0` by default so change it to `1`.
 
-Drag and drop the `Sphere` GameObject from the Unity Hierarchy window into the newly displayed Element `0` field within the `Targets -> Elements` parameter on the `Object Follower` component.
+Drag and drop the `Sphere` GameObject into the newly displayed `Element 0` property value within the `Targets` property on the `Object Follower` component.
 
 ![Add Sphere To Object Follower Target](assets/images/AddSphereToObjectFollowerTarget.png)
 
@@ -82,7 +88,7 @@ Select the `Mutators.ObjectFollower` GameObject in the Unity Hierarchy window th
 
 > The size property will be `0` by default so change it to `1`.
 
-Drag and drop the `Sphere -> GameObject` empty GameObject from the Unity Hierarchy window into the newly displayed Element `0` field within the `Target Offsets -> Elements` parameter on the `Object Follower` component.
+Drag and drop the `Sphere -> GameObject` empty GameObject into the newly displayed `Element 0` property value within the `Target Offsets` property on the `Object Follower` component.
 
 ![Add Empty GameObject To Object Follower Target Offset](assets/images/AddEmptyGameObjectToObjectFollowerTargetOffset.png)
 

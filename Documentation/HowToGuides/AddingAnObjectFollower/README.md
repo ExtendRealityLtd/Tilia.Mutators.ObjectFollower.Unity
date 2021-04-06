@@ -44,9 +44,7 @@ This will be used as the target GameObject that will follow the source GameObjec
 
 ### Step 3
 
-Expand the `Tilia Mutators ObjectFollower Unity` package directory in the Unity Project window then select `Packages -> Tilia Mutators ObjectFollower Unity -> Runtime -> Prefabs` directory then drag and drop the `Mutators.ObjectFollower` prefab into the Hierarchy window.
-
-![Adding Object Follower](assets/images/AddingObjectFollower.png)
+Add a `Mutators.ObjectFollower` prefab to the Unity project hierarchy by selecting `GameObject -> Tilia -> Prefabs -> Mutators -> Mutators.ObjectFollower` from the Unity main top menu.
 
 ### Step 4
 

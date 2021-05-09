@@ -2,7 +2,7 @@
     "name": "io.extendreality.tilia.mutators.objectfollower.unity",
     "displayName": "Tilia Mutators ObjectFollower Unity",
     "description": "A mechanism to make a target GameObject follow a source GameObject in the scene for the Unity software.",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "unity": "2018.3",
     "unityRelease": "10f1",
     "keywords": [

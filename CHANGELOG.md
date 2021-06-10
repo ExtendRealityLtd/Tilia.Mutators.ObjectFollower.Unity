@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.2.3](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.2.2...v1.2.3) (2021-06-10)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 1.36.0 to 1.36.1 ([efc774f](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/commit/efc774f1ba3128f4b400e8908e0110a551943492))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 1.36.0 to 1.36.1. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v1.36.0...v1.36.1)
+* **README.md:** update title logo to related-media repo ([7e58985](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/commit/7e58985421a1aa2af978e19f877808bb9778230f))
+  > The title logo is now located on the related-media repo.
+
 ### [1.2.2](https://github.com/ExtendRealityLtd/Tilia.Mutators.ObjectFollower.Unity/compare/v1.2.1...v1.2.2) (2021-05-09)
 
 #### Miscellaneous Chores
